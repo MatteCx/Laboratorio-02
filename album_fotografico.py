@@ -59,7 +59,7 @@ def elenco_foto_anno_per_titolo(album, anno):
 def main():
     album = []
     file_path = "album_fotografico.csv"
-    album = carica_da_file("album_fotografico.csv") #---> Usato solo per velocizzare test
+    #album = carica_da_file("album_fotografico.csv") #---> Usato solo per velocizzare test
     while True:
         print("\n--- MENU ALBUM FOTOGRAFICO ---")
         print("1. Carica album da file")
