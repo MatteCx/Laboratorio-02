@@ -1,20 +1,28 @@
 def carica_da_file(file_path):
+
     """Carica le foto dal file, creando un nuovo anno ogni volta che compare per la prima volta"""
+
     # TODO
 
 
 def aggiungi_foto(album, codice, titolo, autore, mese, anno, file_path):
+
     """Aggiunge una foto all'album, creando l'anno al volo se non è ancora presente"""
+
     # TODO
 
 
 def cerca_foto(album, codice):
+
     """Cerca una foto nell'album dato il codice"""
+
     # TODO
 
 
 def elenco_foto_anno_per_titolo(album, anno):
+
     """Ordina i titoli delle foto di un dato anno in ordine alfabetico"""
+
     # TODO
 
 
@@ -95,6 +103,7 @@ def main():
             break
         else:
             print("Opzione non valida. Riprova.")
+
 
 
 if __name__ == "__main__":
