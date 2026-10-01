@@ -49,8 +49,7 @@ def elenco_foto_anno_per_titolo(album, anno):
     #Ordina i titoli delle foto di un dato anno in ordine alfabetico
     # TODO
 
-    lista_foto = [el for el in list(album) if int(el[-1].strip()) == anno]
-    lista_foto.sort(key=itemgetter(1))
+    lista_foto = sorted([el for el in list(album) if int(el[-1].strip()) == anno], key=itemgetter(1))
     if lista_foto == []:
         return None
     else:
